@@ -1,13 +1,26 @@
 Guida a git
 
-# Per aggiungere tutti i file di una cartella
+GIT: PRIMA CONFIGURAZIONE
+1. Per aggiungere tutti i file di una cartella
 git add .
 
-# Aggiorno la repository locale, l'attributo 'a' sincronizza le repo locale e remoto
+2. Aggiorno la repository locale, l'attributo 'a' sincronizza le repo locale e remoto
 git commit -am "first commit"
 
-# Aggiorno la repository in remoto
+3. Aggiorno la repository in remoto
 git remote add origin git@github.com:gmstam/nodeapp.git
 
-# Rendo effettive le modifiche in remoto
+4. Rendo effettive le modifiche in remoto
 git push -u origin master
+
+5. (OPZIONALE) Aggiungere la chiave pubblica a git in caso di errore
+
+GIT: Aggiornamento repository
+1. Aggiornare la lista dei file in locale
+git add .
+
+2. Aggiornare la repo in locale e inserire una descrizione
+git commit -am "first commit"
+
+3. Aggiornare la repo in remoto
+git push
