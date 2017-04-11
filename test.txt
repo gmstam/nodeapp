@@ -1,0 +1,13 @@
+Guida a git
+
+# Per aggiungere tutti i file di una cartella
+git add .
+
+# Aggiorno la repository locale, l'attributo 'a' sincronizza le repo locale e remoto
+git commit -am "first commit"
+
+# Aggiorno la repository in remoto
+git remote add origin git@github.com:gmstam/nodeapp.git
+
+# Rendo effettive le modifiche in remoto
+git push -u origin master
